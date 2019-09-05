@@ -1,0 +1,15 @@
+[
+    {
+        "foto": 'src',
+        "nome": "Anakin Skywalker",
+        "sexo": "Masculino",
+        "planeta": "Tatooine"
+    },
+
+    {
+        "foto": 'src',
+        "nome": "Leia",
+        "sexo": "Feminino",
+        "planeta": "Coruscant"
+    },
+]

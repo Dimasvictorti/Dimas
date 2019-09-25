@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule }  from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { EstudantesComponent } from './estudantes/lista-estudantes.component';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +12,8 @@ import { EstudantesComponent } from './estudantes/lista-estudantes.component';
     EstudantesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })
